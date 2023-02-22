@@ -69,6 +69,7 @@ const UserList = () => {
                             placeholder="Search..." />
                     </div>
                 </p>
+                
                 {columns.map(function (items, key) {
                     return (
                         <div className="columns is-full">
